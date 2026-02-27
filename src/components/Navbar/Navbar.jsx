@@ -1,10 +1,9 @@
 import React from 'react';
-import {PiCoinVerticalFill} from "react-icons/pi";
 import {RiCopperCoinFill} from "react-icons/ri";
 
 const Navbar = ({coins}) => {
   return (
-      <div className="navbar bg-base-100 shadow-sm mb-5">
+      <div className="navbar shadow-sm mb-5 sticky top-0 z-50 backdrop-blur-xl">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -19,7 +18,7 @@ const Navbar = ({coins}) => {
               <li>Schedules</li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl"><img src="/src/assets/logo.png" alt="" /></a>
+          <img className='bg-white rounded-full' src="/images/logo.png" alt=""/>
         </div>
 
         <div className="navbar-end gap-5">

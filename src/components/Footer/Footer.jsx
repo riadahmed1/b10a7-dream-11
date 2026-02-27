@@ -3,31 +3,44 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="pt-44 space-y-10 bg-black rounded-xl py-10">
-      <img className="mx-auto" src="/logo-footer.png" alt="footer image" />
-      <div className="flex justify-around text-left">
-        <section>
-          <h6 className="text-xl font-bold">About Us</h6>
-          <p className="text-gray-400">We are a passionate team <br /> dedicated to providing the best <br /> services to our customers.</p>
-        </section>
-        <section>
-          <h6 className="text-xl font-bold">Quick Links</h6>
-          <div className="flex flex-col text-gray-400">
-            <a className="link link-hover hover:text-lime-400">Home</a>
-            <a className="link link-hover hover:text-lime-400">Services</a>
-            <a className="link link-hover hover:text-lime-400">About</a>
-            <a className="link link-hover hover:text-lime-400">Contact</a>
-          </div>
-        </section>
-        <section>
-          <h6 className="text-xl font-bold">Subscribe</h6>
-          <div className="flex flex-col text-gray-400">
-            <p>Subscribe to our newsletter for the latest updates.</p>
-          </div>
-        </section>
+        <img className="mx-auto" src="/images/logo-footer.png" alt="footer image"/>
+        <div className="flex justify-around text-left">
+          <section>
+            <h6 class="text-xl font-bold">About Us</h6>
+            <p className="text-gray-400">
+              We are a passionate team <br />
+              dedicated to providing the best <br />
+              services to our customers.
+            </p>
+          </section>
+          <section>
+            <h6 className="text-xl font-bold">Quick Links</h6>
+            <div className="flex flex-col text-gray-400">
+              <a className="link link-hover hover:text-lime-400">Home</a>
+              <a className="link link-hover hover:text-lime-400">Services</a>
+              <a className="link link-hover hover:text-lime-400">About</a>
+              <a className="link link-hover hover:text-lime-400">Contact</a>
+            </div>
+          </section>
+          <section>
+            <h6 className="text-xl font-bold">Subscribe</h6>
+            <div className="flex flex-col text-gray-400">
+              <p>Subscribe to our newsletter for the latest updates.</p>
+              <div className='mt-3'>
+                <input type="email" placeholder="Enter your email" id=""
+                className='text-black border border-gray-400 rounded-xl px-6 py-3'/>
+                <button className='bg-linear-to-r from-pink-400 to-yellow-400 font-bold text-black px-8 py-3 rounded-xl'>
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </section>
+        </div>
+        <hr className="opacity-30 mx-auto w-11/12"/>
+        <h1 className="text-center">
+          &copy;2026 Riad Ahmed All Right Reserved
+        </h1>
       </div>
-      <hr className="opacity-30" />
-      <h1>&copy;2026 Riad Ahmed All Right Reserved</h1>
-    </div>
   );
 };
 

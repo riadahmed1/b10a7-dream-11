@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "player_name": "Arjun Malhotra",
+    "player_img": "https://i.ibb.co.com/1GzwwC2/Cricket-Player-1.png",
+    "country": "India",
+    "price": 100
+  },
+  {
+    "id": 2,
+    "player_name": "James Walker",
+    "player_img": "https://i.ibb.co.com/HC10dZm/Cricket-Player-2.png",
+    "country": "Australia",
+    "price": 300
+  },
+  {
+    "id": 3,
+    "player_name": "Rizwan Haq",
+    "player_img": "https://i.ibb.co.com/MZpYzhD/Cricket-Player-3.png",
+    "country": "Pakistan",
+    "price": 200
+  },
+  {
+    "id": 4,
+    "player_name": "Daniel Smith",
+    "player_img": "https://i.ibb.co.com/fkZYWxb/Cricket-Player-4.jpg",
+    "country": "England",
+    "price": 500
+  },
+  {
+    "id": 5,
+    "player_name": "Kavindu Perera",
+    "player_img": "https://i.ibb.co.com/b2kR527/Cricket-Player-5.jpg",
+    "country": "Sri Lanka",
+    "price": 400
+  },
+  {
+    "id": 6,
+    "player_name": "Thabo Nkosi",
+    "player_img": "https://i.ibb.co.com/mrnXfZ4J/Cricket-Player-6.png",
+    "country": "South Africa",
+    "price": 300
+  }
+]

@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="space-y-10 bg-black rounded-xl py-10">
-      <img className="mx-auto" src="/src/assets/logo-footer.png" alt="footer image" />
+    <div className="pt-44 space-y-10 bg-black rounded-xl py-10">
+      <img className="mx-auto" src="/logo-footer.png" alt="footer image" />
       <div className="flex justify-around text-left">
         <section>
           <h6 className="text-xl font-bold">About Us</h6>
